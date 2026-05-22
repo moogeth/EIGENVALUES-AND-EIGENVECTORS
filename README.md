@@ -12,6 +12,26 @@ To write a python program to find the Eigenvalues and Eigen Vectors
 
 ## Program:
 
+Write a program to find the eigenvalues and associated eigenvectors for the matrix
+
+[4,2],[2,4]
+
+For example:
+
+Result
+Eigen values are [6. 2.] and Eigen Vectors are [[ 0.70710678 -0.70710678]
+ [ 0.70710678  0.70710678]]
+
 ## Output:
+
+#Program to find the eigen values and eigen vectors.
+#Developed by: moogethshivan.g
+#RegisterNumber:212225040259
+import os
+os.environ["OPENBLAS_NUM_THREADS"]="1"
+import numpy as np
+A = np.array([[4,2],[2,4]])
+eigenvalues, eigenvectors = np.linalg.eig(A)
+print("Eigen values are",eigenvalues,"and Eigen Vectors are",eigenvectors)
 ## Result:
 Thus the Eigenvalue and Eigenvector is successfully solved using python program
