@@ -33,5 +33,7 @@ import numpy as np
 A = np.array([[4,2],[2,4]])
 eigenvalues, eigenvectors = np.linalg.eig(A)
 print("Eigen values are",eigenvalues,"and Eigen Vectors are",eigenvectors)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/083ec5fb-0290-41a3-b3ac-0dab791bee8a" />
+
 ## Result:
 Thus the Eigenvalue and Eigenvector is successfully solved using python program
